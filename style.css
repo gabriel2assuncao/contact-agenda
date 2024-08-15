@@ -1,0 +1,6 @@
+.lista-de-contatos {
+    ul {
+        list-style: none;
+        display: flex;
+    }
+}
