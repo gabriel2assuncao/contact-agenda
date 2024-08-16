@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-principal {
+    background-color: #007BFF;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.nav {
+    background-color: #a1a1a1;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.informações-dos-contatos {
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.info-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-contact ul li {
+    margin-right: 20px;
+}
+
+.info-contact ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.botão-salvar {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.botão-deletar {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botão-vizualizar-contato {
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-principal {
+    background-color: #007BFF;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.nav {
+    background-color: #a1a1a1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.informações-dos-contatos {
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    /* Centraliza a tabela */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.adicionar-contatos {
+    background-color: #9dadc1;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.adicionar-contatos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.botão-salvar {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.botão-deletar {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botão-vizualizar-contato {
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-principal {
+    background-color: #007BFF;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.nav {
+    background-color: #a1a1a1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.informações-dos-contatos {
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    /* Centraliza a tabela */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.adicionar-contatos {
+    background-color: #9dadc1;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.adicionar-contatos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.botão-salvar {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.botão-deletar {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botão-vizualizar-contato {
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #007BFF;
+}
+
+.adicionar-contatos {
+    background-color: #9dadc1;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 568px;
+}
+
+.adicionar-contatos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
