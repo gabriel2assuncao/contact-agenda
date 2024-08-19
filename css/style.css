@@ -6,7 +6,7 @@ body {
 .menu-principal {
     background-color: #007BFF;
     padding: 10px;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
     width: 568px;
     border-radius: 10px;
 }
@@ -42,6 +42,7 @@ body {
     padding: 10px;
     margin: 0 auto 20px;
     width: 568px;
+    border-radius: 10px;
 }
 
 .info-contact ul {
@@ -91,6 +92,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
+    border-radius: 10px;
 }
 
 body {
@@ -155,8 +157,9 @@ th {
 .adicionar-contatos {
     background-color: #9dadc1;
     padding: 10px;
-    margin: 0 auto 20px;
+    margin: 0 auto 5px;
     width: 568px;
+    border-radius: 10px;
 }
 
 .adicionar-contatos ul {
