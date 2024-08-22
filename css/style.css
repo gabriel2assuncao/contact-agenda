@@ -366,5 +366,17 @@ th {
 
 #profile img {
     width: 112px;
-    border-radius: 50%; /* Adiciona um formato circular, se desejado */
+    border-radius: 50%;
 }
+
+.trocar-imagem-de-perfil {
+    display: inline-block;
+    background-color: #007BFF; 
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
