@@ -15,42 +15,51 @@
         </div>
         <nav class="nav">
             <ul>
-                <li><a href="#">Pesquisar contato</a></li>
+                <li>
+                   <label for="toggle-pesquisa" class="pesquisar-contato">Pesquisar contatos</label>
+                    <input type="checkbox" id="toggle-pesquisa" style="display: none;">
+                    <form id="form-pesquisa">
+                        <label for="fname"></label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </li>
                 <li><a href="criar-contato.html">Cadastrar novo contato</a></li>
             </ul>
         </nav>
     </header>
 </body>
 
+
 <div class="informações-dos-contatos">
     <table>
         <thead>
             <tr>
                 <th>Nome</th>
-                <th>Vizualizar</th>
+                <th>E-mail</th>
                 <th>Deletar</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Gabriel Silva</td>
-                <td><a href="informações-dos-contatos.html" class="botão-vizualizar-contato">Vizualizar contato</a></td>
-                <td><a href="#" class="botão-deletar">Deletar</a></td>
+                <td><a href="informações-dos-contatos.html" class="botão-vizualizar-contato"> Gabriel Silva</a></td>
+                <td>texasan893@ndiety.com</td>
+                <td><a href="deletar-contato.html" class="botão-deletar">Deletar</a></td>
             </tr>
             <tr>
-                <td>Daniel Silva</td>
-                <td><a href="#" class="botão-vizualizar-contato">Vizualizar contato</a></td>
-                <td><a href="#" class="botão-deletar">Deletar</a></td>
+                <td><a href="informações-dos-contatos.html" class="botão-vizualizar-contato">Daniel Silva</a></td>
+                <td>texasan893@ndiety.com</td>
+                <td><a href="deletar-contato.html" class="botão-deletar">Deletar</a></td>
             </tr>
             <tr>
-                <td>Pedro Silva</td>
-                <td><a href="#" class="botão-vizualizar-contato">Vizualizar contato</a></td>
-                <td><a href="#" class="botão-deletar">Deletar</a></td>
+                <td><a href="informações-dos-contatos.html" class="botão-vizualizar-contato">Pedro Silva</a></td>
+                <td>texasan893@ndiety.com</td>
+                <td><a href="deletar-contato.html" class="botão-deletar">Deletar</a></td>
             </tr>
             <tr>
-                <td>José Silva</td>
-                <td><a href="#" class="botão-vizualizar-contato">Vizualizar contato</a></td>
-                <td><a href="#" class="botão-deletar">Deletar</a></td>
+                <td><a href="informações-dos-contatos.html" class="botão-vizualizar-contato">José Silva</a></td>
+                <td>texasan893@ndiety.com</td>
+                <td><a href="deletar-contato.html" class="botão-deletar">Deletar</a></td>
             </tr>
         </tbody>
     </table>

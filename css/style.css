@@ -196,6 +196,8 @@ th {
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
+    color: black;
+
 }
 
 
@@ -245,7 +247,6 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
-    /* Centraliza a tabela */
 }
 
 th,
@@ -293,25 +294,77 @@ th {
     text-align: center;
 }
 
-.botão-vizualizar-contato {
-    display: inline-block;
-    color: white;
-    padding: 5px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #007BFF;
-}
-
 .adicionar-contatos {
     background-color: #9dadc1;
     padding: 10px;
     margin: 0 auto 20px;
     width: 568px;
+    border-radius: 10px;
 }
 
 .adicionar-contatos ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.adicionar-contatos ul li {
+    margin-bottom: 15px;
+}
+
+.adicionar-contatos label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#form-pesquisa {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#toggle-pesquisa:checked+#form-pesquisa {
+    display: block;
+}
+
+.pesquisar-contato {
+    cursor: pointer;
+}
+
+.dell ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dell li {
+    margin: 0 10px;
+}
+
+.botão-positivo,
+.botão-negativo {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.botão-negativo {
+    background-color: red;
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 112px;
+    border-radius: 50%; /* Adiciona um formato circular, se desejado */
 }
